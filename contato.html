@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/src/css/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/src/css/main.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/src/css/reset.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/src/css/habilidades.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/src/css/footer.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/src/css/contato.css" media="screen" />
+    <link rel="stylesheet" href="./src/css/base/base.css">
+    <link rel="stylesheet" href="./src/css/cadastro.css">
+    <link rel="stylesheet" href="./src/css/componentes/cartao.css">
+    <link rel="stylesheet" href="./src/css/componentes/inputs.css">
+    <link rel="stylesheet" href="./src/css/componentes/botao.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Poppins:wght@600&family=Roboto&display=swap" rel="stylesheet">
+    <title>Portifolio Pessoal - Cadastro</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__navegacao">
+            <a class="ancora__titulo" href="index.html"><h1 class="cabecalho__titulo">Alkimim</h1></a>
+            <ul class="cabecalho__lista">
+                <li class="cabecalho__item"><a class="cabecalho__ancora" href="index.html">Inicio</a></li>
+                <li class="cabecalho__item"><a class="cabecalho__ancora" href="#">Sobre</a></li>
+                <li class="cabecalho__item"><a class="cabecalho__ancora" href="#">Projetos</a></li>
+            </ul>
+            <a class="butao__ancora" href="contato.html"><button class="button button1" href="contato.html">Contacte-me</button></a>
+        </nav>
+        <span class="target"></span>
+    </header>
+        <h1 class="titulo__principal">Formulario de contato</h1>
+        <main class="container flex flex--coluna flex--centro">
+            <section class="cartao">
+                <h2 class="cartao__titulo">Dados de contato</h2>
+                <form action="./cadastro_concluido.html" class="formulario flex flex--coluna">
+                    <fieldset>
+                        <legend class="formulario__legenda"></legend>
+                        <div class="input-container">
+                            <p class="input-paragrafo">Seu nome</p>
+                            <input name="nome" id="nome" class="input" type="text" placeholder="Nome" required>
+                            <label class="input-label" for="nome">Nome</label>
+                            <span class="input-mensagem-erro">Este campo não está válido</span>
+                        </div>
+                        <div class="input-container">
+                            <p class="input-paragrafo">Seu E-mail</p>
+                            <input name="email" id="email" class="input" type="email" placeholder="Email" required>
+                            <label class="input-label" for="email">Email</label>
+                            <span class="input-mensagem-erro">Este campo não está válido</span>
+                        </div>
+                        <div class="input-container">
+                            <p class="input-paragrafo">Sua mensagem</p>
+                            <textarea id="msg" name="msg" rows="0" class="input" cols="0"></textarea>
+                            <label class="input-label" for="msg">Mensagem</label>
+                            <span class="input-mensagem-erro">Este campo não está válido</span>
+                        </div>
+                    </fieldset>
+                    <div class="g-recaptcha" data-sitekey="6LdUMn0hAAAAAOqQt1TP6ALbFhFSTx8crWlNv7tN"></div>
+                    <button class="botao botao1">Enviar</a>
+                </form>
+                <script src='https://www.google.com/recaptcha/api.js'></script>
+            </section>
+        </main>
+    </main>
+</body>

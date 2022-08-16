@@ -1,0 +1,33 @@
+:root {
+    --fonte-familia-corpo: 'DM Sans', sans-serif;
+    --fonte-familia-logo: 'Pacifico', cursive;
+
+    --fonte-peso-input: 400;
+
+    --fonte-tamanho-logo: 28px;
+    --fonte-tamanho-cartao-titulo: 28px;
+    --fonte-tamanho-input-label: px;
+    --fonte-tamanho-botao: 22px;
+    --fonte-tamanho-formulario-fieldset: 14px;
+    --fonte-tamanho-tabela-cabecalho: 22px;
+    --fonte-tamanho-modal-titulo: 28px;
+    --fonte-tamanho-modal-botao: 28px;
+    
+    
+    --cor-primaria: #F9B53A;
+    --cor-secundaria: #272728;;
+    --cor-contraste-escuro: #fff;
+    --cor-contraste-claro: #1F1F21;
+    --cor-texto-botao: #fff;
+    --cor-aviso: #df2525;
+    --cor-sucesso: #047900;
+    --cor-transparencia: #4d4d4d33;
+    --cor-input: #A0A0A1;
+    --cor-background-input: #1F1F21
+    --sombra: 0 5px 10px #55a6ff38;
+}
+@media(min-width: 800px) {
+    :root {
+        --fonte-tamanho-logo: 56px;
+    }
+}

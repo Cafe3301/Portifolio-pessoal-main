@@ -1,0 +1,145 @@
+.principal{
+    display: flex;
+    justify-content: center;
+    padding: 8rem;
+    padding-bottom: 3rem;
+}
+.principal__nome{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 71px;
+    color: white;
+    text-align: center;
+}
+.principal__sobrenome{
+    color: #F9B53A;
+    text-align: center;
+}
+.divisao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    background-color: #F9B53A;
+    border: none;
+    color: white;
+    padding: 21px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+.button-primario{
+    background-color: transparent;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+.button2{
+    background: #F9B53A;
+    border-radius: 8px;  
+    padding: 19px 28px;
+    margin-right: 24px;
+}
+.button3{
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    padding: 19px 20px;
+    cursor: pointer; 
+}
+.divisao__icone{
+    width: 15px;
+    padding-right: 1rem;
+    padding-top: 2px;
+}
+.paragrafo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.4rem;
+}
+.paragrafo-principal{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 0.15px;
+    padding-bottom: 3rem;
+}
+.sobre-mim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.border{
+    background: #1F1F21;
+    border: 1.5px solid #3D3D3D;
+    border-radius: 8px;
+    margin-right: 20rem;
+    margin-left: 2rem;
+    padding-right: 25rem;
+    position: relative;
+}
+.border__titulo{
+    font-family: 'DM Sans', sans-serif;
+    padding-left: 5rem;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 40px;
+    color: #F9B53A;
+}
+.border__paragrafo{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    color: #FFFFFF;
+    padding-top: 2rem;
+    padding-left: 5rem;
+    line-height: 1.3;
+}
+.border__paragrafo-segundo{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    color: #FFFFFF;
+    justify-content: flex-start;
+    padding-top: 1rem;
+    padding-left: 5rem;
+    line-height: 1.3;
+}
+.button-segundario{
+    background-color: transparent;
+    color: #FFFFFF;
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 30px 80px;
+}
+.border__foto{
+    width: 35%;
+    height: 90%;
+    float: right; 
+    position: absolute;
+    top: 5%;
+    right: 1%;
+}
+.button4{
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    padding: 10px 20px;
+}

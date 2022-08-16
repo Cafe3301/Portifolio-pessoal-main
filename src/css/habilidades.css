@@ -1,0 +1,73 @@
+.principais-habilidades{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    text-align: center;
+    color: #F9B53A;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 16px;
+}
+.habilidade-secao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.habilidade__titulo{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 40px;
+    color: white;
+}
+.habilidade__paragrafo{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: white;
+}
+.habilidade-secao__responsavel{
+    background: #1F1F21;
+    border-radius: 8px;
+    padding: 2rem;
+    margin: 1rem;
+}
+.habilidade-secao__praticas{
+    background: #1F1F21;
+    border-radius: 8px;
+    padding: 2rem;
+    margin-right: 1rem;
+}
+.habilidade-secao__socios{
+    background: #1F1F21;
+    border-radius: 8px;
+    padding: 3rem;
+}
+.butao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.button-terceario{
+    background-color: #F9B53A;
+    color: #FFFFFF;
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'DM Sans';
+    font-size: 16px;
+    margin: 30px 80px;
+}
+.button5{
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    padding: 15px 20px;
+}

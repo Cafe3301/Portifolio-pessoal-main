@@ -1,0 +1,84 @@
+body{
+    background: #272728;
+    
+}
+.cabecalho{
+    background: rgba(23, 23, 24, 0.65);
+}
+.cabecalho__navegacao{
+    display: flex;
+    justify-content: space-around;
+}
+.cabecalho__titulo{
+    font-family: 'Poppins', sans-serif;
+    padding-top: 1.5rem;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 24px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-left: 8.0rem;
+}
+.ancora__titulo{
+    text-decoration: none;
+}
+.cabecalho__lista{
+    display: flex;
+}
+.cabecalho__item{
+    padding-right: 3rem;
+    padding-top: 1.8rem;
+    text-decoration: none;
+    color: white;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+}
+.cabecalho__ancora{
+    text-decoration: none;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: white;
+}
+.button{
+    background-color: #F9B53A;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+.button:hover{
+    background: linear-gradient(270deg, #F9B53A 10.81%, #FF59A8 100%);
+    border-radius: 8px;
+    transition-delay: 0.5s;
+    transition: all ease-in;
+    opacity: 0.7;
+}
+.button1{
+    border-radius: 8px;
+    margin: 10px 10px;
+}
+.butao-ancora{
+    background-color: #F9B53A;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/*Terminar o butao*/
+.banner{
+    width: 100%;
+}

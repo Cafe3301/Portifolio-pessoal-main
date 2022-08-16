@@ -1,0 +1,44 @@
+.rodape-divisao{
+    background: #131414;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+.rodape__titulo{
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 24px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.rodape__lista{
+    display: flex;
+    flex-direction: column;
+    
+}
+.rodape__item{
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+}
+.rodape__ancora{
+        text-decoration: none;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: white;
+}
+.rodape__item-primeiro{
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+}
+.rodape__ancora-primeiro{
+    text-decoration: none;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #F9B53A;
+}
