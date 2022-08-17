@@ -2,7 +2,7 @@
     background: #131414;
     display: flex;
     justify-content: space-around;
-    padding: 2rem;
+    padding: 3.2-rem;
 }
 .rodape__titulo{
     font-family: 'Poppins', sans-serif;
@@ -30,7 +30,6 @@
     color: white;
 }
 .rodape__item-primeiro{
-    padding-top: 1rem;
     padding-bottom: .5rem;
 }
 .rodape__ancora-primeiro{
